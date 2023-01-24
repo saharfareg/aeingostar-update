@@ -184,12 +184,12 @@ nav i{color: white;}
 .sec-radcam4{background-color: #53a7ea;}
 
 /*.sec-radcam:hover .sec-radcam1{transform:scale(0.5);opacity: 0;transition:transform 1s , opacity 2s } */
-.sec-rad1:hover .sec-radcam1{transform:scale(0.5);opacity: 0;transition:transform 1s , opacity 2s } 
-.sec-rad2:hover .sec-radcam2{transform:scale(0.5);opacity: 0;transition:transform 1s , opacity 2s } 
-.sec-rad3:hover .sec-radcam3{transform:scale(0.5);opacity: 0;transition:transform 1s , opacity 2s } 
-.sec-rad4:hover .sec-radcam4{transform:scale(0.5);opacity: 0;transition:transform 1s , opacity 2s } 
+.sec-rad1:hover .sec-radcam1{transform:scale(0.5);opacity: 0;transition:transform 1s , opacity 1s } 
+.sec-rad2:hover .sec-radcam2{transform:scale(0.5);opacity: 0;transition:transform 1s , opacity 1s } 
+.sec-rad3:hover .sec-radcam3{transform:scale(0.5);opacity: 0;transition:transform 1s , opacity 1s } 
+.sec-rad4:hover .sec-radcam4{transform:scale(0.5);opacity: 0;transition:transform 1s , opacity 1s } 
 
-.div-rad1,.div-rad2,.div-rad3,.div-rad4{padding-right: 3rem;transition: 2s}
+.div-rad1,.div-rad2,.div-rad3,.div-rad4{padding-right: 3rem;transition: 0.5s}
 .sec-rad1:hover .div-rad1{padding-right: 1.5rem!important;}
 .sec-rad2:hover .div-rad2{padding-right: 1.5rem!important;}
 .sec-rad3:hover .div-rad3{padding-right: 1.5rem!important;}
@@ -197,6 +197,6 @@ nav i{color: white;}
 
 .sec-rad1{background-color: #f0a540}
 .sec-rad2{background-color: #d9534f;}
-.sec-rad3{background-color: #5cb85c;}
+.sec-rad3{background-color: #4caf50;}
 .sec-rad4{background-color: #2196f3;}
-
+.justify{text-align: justify}
