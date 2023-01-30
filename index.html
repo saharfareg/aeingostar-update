@@ -5,188 +5,109 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>شرکت آئین گستر</title>
-    <!--<link rel="stylesheet" href="./css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/bootstrap.rtl.min.css">-->
-    
     <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+	<!-- bootstrap-css -->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.rtl.min.css" integrity="sha384-WJUUqfoMmnfkBLne5uxXj+na/c7sesSJ32gI7GfCk4zO4GthUKhSEGyvQ839BC51" crossorigin="anonymous">
+	<!-- bootstrap-icon -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
-<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./css/style.css">
+	<!-- fade-up  -->
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">	
+	<!-- owl-carousel  -->
+	<link rel="stylesheet" href="./css/owl.carousel.min.css">
+	<link rel="stylesheet" href="./css/owl.theme.default.min.css">
+	<script src="./js/jquery-3.6.0.min.js"></script>
+	<script src="./js/owl.carousel.min.js"></script>	
 </head>
 <body>
 <header>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top justify-content-start py-0">
-        <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top top-0 start-0 d-flex   py-0 nav-height">
+        
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="collapse navbar-collapse order-2 order-sm-1" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 navbar-nav-scroll">
-              <li class="nav-item dropdown">
-                <a class="nav-link active fs-5 dropdown-toggle" aria-current="page" href="" data-bs-toggle="dropdown" aria-expanded="false">طراحی و توسعه سایت</a>
-				<ul class="dropdown-menu">
-					<li><a class="dropdown-item" href="#">معرفی خدمات</a></li>
-					<li><a class="dropdown-item" href="#">طراحی سایت شرکتی</a></li>
-					<li><a class="dropdown-item" href="#">طراحی سایت فروشگاهی</a></li>
-					<li><a class="dropdown-item" href="#">معرفی خدمات</a></li>
-					<li><a class="dropdown-item" href="#">طراحی سایت شرکتی</a></li>
-					<li><a class="dropdown-item" href="#">طراحی سایت فروشگاهی</a></li>
-				</ul>  
+              <li class="nav-item li-container">
+                <a class="nav-link fw-bold fColor fs-6  nav-a" >طراحی و توسعه سایت</a>
+				<div data-aos="fade-up" data-aos-duration="3000">
+				  <ul class="submenu list-unstyled">
+					<li class="padding-li li-hover"><a class="text-decoration-none text-dark fw-bold x "  href="#">معرفی خدمات</a></li>
+					<li class="padding-li li-hover"><a class="text-decoration-none text-dark fw-bold x " href="#">طراحی سایت شرکتی</a></li>
+					<li class="padding-li li-hover"><a class="text-decoration-none text-dark fw-bold x " href="#">طراحی سایت فروشگاهی</a></li>
+					<li class="padding-li li-hover"><a class="text-decoration-none text-dark fw-bold x " href="#">معرفی خدمات</a></li>
+					<li class="padding-li li-hover"><a class="text-decoration-none text-dark fw-bold x " href="#">طراحی سایت شرکتی</a></li>
+					<li class="padding-li li-hover"><a class="text-decoration-none text-dark fw-bold x " href="#">طراحی سایت فروشگاهی</a></li>
+				</ul> 
+				  </div>  
 			  </li>
-              <li class="nav-item  dropdown">
-                <a class="nav-link dropdown-toggle active fs-5" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">سایر خدمات</a>
-                <ul class="dropdown-menu">
-                    <li>
-						<div class="btn-group dropend">
-							<a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">دیجیتال مارکتینگ</a>
-							<ul class="dropdown-menu">
-								<li><a class="dropdown-item" href="#">معرفی مجموعه</a></li>
-								<li><a class="dropdown-item" href="#">دعوت به همکاری</a></li>
-								<li><a class="dropdown-item" href="#">شرایط و قوانین</a></li>
+              <li class="nav-item li-container">
+                <a class="nav-link fw-bold fColor fs-6 nav-a" href="" >سایر خدمات</a>
+				  <div data-aos="fade-up" data-aos-duration="3000">
+                	<ul class="submenu list-unstyled">
+						<li class="li-container-inner padding-li">
+							<a class="text-decoration-none text-dark fw-bold x" href="#" >دیجیتال مارکتینگ</a>
+							<ul class="submenu-inner list-unstyled">
+								<li class="padding-li li-hover"><a class="text-decoration-none text-dark fw-bold x" href="#">معرفی مجموعه</a></li>
+								<li class="padding-li li-hover"><a class="text-decoration-none text-dark fw-bold x" href="#">دعوت به همکاری</a></li>
+								<li class="padding-li li-hover"><a class="text-decoration-none text-dark fw-bold x" href="#">شرایط و قوانین</a></li>
 							</ul>
-						</div>
-					</li>
-                    <li><a class="dropdown-item" href="#">مشاوره و تدوین استراتژی</a></li>
-                    <li><a class="dropdown-item" href="#">طراحی و برندینگ</a></li>
+						</li>
+						<li class="padding-li li-hover"><a class="text-decoration-none text-dark fw-bold x" href="#">مشاوره و تدوین استراتژی</a></li>
+						<li class="padding-li li-hover"><a class="text-decoration-none text-dark fw-bold x" href="#">طراحی و برندینگ</a></li>
                   </ul>
+				  </div>    
               </li>
               <li class="nav-item">
-                <a class="nav-link active fs-5" href="#" >پروژه ها</a> 
+                <a class="nav-link  fs-6 fw-bold fColor nav-a" href="#" >پروژه ها</a> 
               </li>
               <li class="nav-item">
-                <a class="nav-link active fs-5" href="#">اخبار و رویداد</a>
+                <a class="nav-link  fs-6 fw-bold fColor nav-a" href="#">اخبار و رویداد</a>
               </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link active fs-5 dropdown-toggle"  data-bs-toggle="dropdown" href="#"> درباره ما </a>
-				<ul class="dropdown-menu">
-					<li><a class="dropdown-item" href="#">معرفی مجموعه</a></li>
-					<li><a class="dropdown-item" href="#">دعوت به همکاری</a></li>
-					<li><a class="dropdown-item" href="#">شرایط و قوانین</a></li>
-				</ul>  
+              <li class="nav-item li-container">
+                <a class="nav-link  fs-6 fw-bold fColor nav-a"  href="#"> درباره ما </a>
+				 <div data-aos="fade-up" data-aos-duration="3000" > 
+				<ul class="submenu list-unstyled">
+					<li class="padding-li li-hover"><a class="text-decoration-none text-dark fw-bold x" href="#">معرفی مجموعه</a></li>
+					<li class="padding-li li-hover"><a class="text-decoration-none text-dark fw-bold x" href="#">دعوت به همکاری</a></li>
+					<li class="padding-li li-hover"><a class="text-decoration-none text-dark fw-bold x" href="#">شرایط و قوانین</a></li>
+				</ul> 
+				  </div>  
               </li>
               <li class="nav-item">
-                <a class="nav-link active fs-5" href="#">  تماس با ما </a>
+                <a class="nav-link fw-bold fColor nav-a fs-6" href="#">  تماس با ما </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active fs-5" href="#"> طرح حمایت از کسب و کار </a>
+                <a class="nav-link fw-bold fColor nav-a fs-6" href="#"> طرح حمایت از کسب و کار </a>
               </li>
             </ul>
           </div>
-			<a href="" class="d-none d-md-block" >
+			<a href="" class="d-none d-md-block d-lg-none d-xl-block order-sm-2" >
 				<i class="bi bi-search text-dark mx-2 p-2 fw-bold a-hover"></i>
 			</a>
-			<a class="text-decoration-none active fw-bold astyle  d-none d-md-block animate " aria-current="page" href="#">
+			<a class="text-decoration-none text-center active fw-bold astyle  d-none d-md-block d-lg-none d-xl-block animate order-sm-3" aria-current="page" href="#">
 				<i class="bi bi-telephone-fill z-index-1 fs-6"></i>
 				<span class="z-index-1">نیاز به مشاوره دارید؟</span>
           	</a>
-		  	<a class="navbar-brand d-flex align-items-center" href="https://aeingostar.com/" style="height: 98px;">
+		  	<a class="navbar-brand d-flex align-items-center order-1 order-sm-4" href="https://aeingostar.com/" style="height: 98px;">
 			<img src="./img/logo.png"  alt="logo"  class="img-fluid" width="230">
 			</a>
-        </div>
+        
       </nav>
 </header>
-<main>
-	<section id="carouselExampleAutoplaying" class="carousel slide " data-bs-ride="carousel">
-		<div class="carousel-inner">
-			<div class="carousel-item active">
-			  <img src="img/slider1.jpg" class="d-block w-100" alt="slider1">
-			</div>
-			<div class="carousel-item">
-			  <img src="img/slider2.jpg" class="d-block w-100" alt="slider2">
-			</div>
-			<div class="carousel-item">
-			  <img src="img/slider3.jpg" class="d-block w-100" alt="slider3">
-			</div>
-			<div class="carousel-item">
-			  <img src="img/slider4.jpg" class="d-block w-100" alt="slider4">
-			</div>
-			<div class="carousel-item">
-			  <img src="img/slider5.jpg" class="d-block w-100" alt="slider5">
-			</div>  
-		  </div>
-		  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-			<span class="visually-hidden">Previous</span>
-		  </button>
-		  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-			<span class="carousel-control-next-icon" aria-hidden="true"></span>
-			<span class="visually-hidden">Next</span>
-		  </button>
-	</section>
-	<section class="container-fluid bg-white py-1">
-		<div class="row">
-			<div class="col-9 mx-auto">
-				<div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4  g-2 g-lg-3 justify-content-center py-5">
-<!--					<div class="col rounded-2 sec-rad1 ">
-						<div class="row sec-radcam">
-							<a href="#" class="col-12 text-light text-decoration-none">
-								<div class="row ">
-									<div class="col-3 text-center  justify-content-center align-items-center sec-radcam1 fs-4 rounded-start py-3">
-										<i class="bi bi-cart-check"></i>
-									</div>
-									<div class="col-9 text-center py-3 mx-auto z">
-										<strong class="d-inline-block w-100">راهنمای رادکام</strong>
-										<span class="">Radcom Help</span>
-									</div>
-								</div>
-								
-							</a>
-						</div>
-					</div>
--->	
-					<div class="col  rounded-2 sec-rad1  px-0">
-						<a href="" class=" text-light d-flex align-items-center text-decoration-none h-100 p-0 w-100">
-							<div class="float-start d-flex align-items-center sec-radcam1 fs-4 rounded-start py-4 h-100 px-4">
-								<i class="bi bi-cart-check py-auto "></i>
-							</div>
-							<div class="float-end text-center py-4 div-rad1">
-								<span >خرید دامنه و هاست</span>
-								<span class="d-block">Buy Domain & Host</span>
-							</div>
-						</a>
-					</div>
-					<div class="col  rounded-2 sec-rad2  px-0">
-						<a href="" class=" text-light d-flex align-items-center text-decoration-none h-100 p-0 w-100">
-							<div class="float-start d-flex align-items-center sec-radcam2 fs-4 rounded-start py-4 h-100 px-4">
-								<i class="bi bi-cart-check py-auto "></i>
-							</div>
-							<div class="float-end text-center py-4 div-rad2">
-								<span >خرید دامنه و هاست</span>
-								<span class="d-block">Buy Domain & Host</span>
-							</div>
-						</a>
-					</div>
-					<div class="col rounded-2 sec-rad3  px-0">
-						<a href="" class=" text-light d-flex align-items-center text-decoration-none h-100 p-0 w-100">
-							<div class="float-start d-flex align-items-center sec-radcam3 fs-4 rounded-start py-4 h-100 px-4">
-								<i class="bi bi-cart-check py-auto "></i>
-							</div>
-							<div class="float-end text-center py-4 div-rad3">
-								<span >طراحی سایت</span>
-								<span class="d-block">Web Design</span>
-							</div>
-						</a>
-					</div>
-					<div class="col rounded-2 sec-rad4  px-0">
-						<a href="" class=" text-light d-flex align-items-center text-decoration-none h-100 p-0 w-100">
-							<div class="float-start d-flex align-items-center sec-radcam4 fs-4 rounded-start py-4 h-100 px-4">
-								<i class="bi bi-cart-check py-auto "></i>
-							</div>
-							<div class="float-end text-center py-4 div-rad4">
-								<span >پورتال مشتریان رادکام</span>
-								<span class="d-block">My Radcom</span>
-							</div>
-						</a>
-					</div>
-
-				</div>	
+<main class="mt-5 pt-5">
+	<section class="container-fluid secj d-flex align-items-center  justify-content-center">
+		<div class="row ">
+			<div class="col-12 inner mx-auto my-auto">
+				<h1 class="fw-bolder text-shadoww text-center text-light">An Iran Based Digital Marketing Company</h1>
+				<h5 class="text-light text-center text-shadoww"><div><a href="" class="text-decoration-none  text-light">طـراحی و توسـعه سایت</a> | <a href="" class="text-decoration-none  text-light">دیجیتـال مارکتینگ</a> | <a href="" class="text-decoration-none  text-light">طـراحی و برندینگ</a>| <a href="" class="text-decoration-none  text-light">مشــاوره و تدوین استـراتژی</a></div></h5>
 			</div>
 		</div>
 	</section>
-	<section class="container-fluid bg-light section2 pb-4">
-		<div class="row">
+	<section class="container-fluid bg-light section2 pb-4"  >
+		<div class="row" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
 			<div class="col-10 mx-auto">
-					<div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4 justify-content-center py-5">
+			<div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4 justify-content-center py-5 pt-0 position-relative top_position">
 			<div class="col d-flex justify-content-center">
 				<div class="card bshadow py-4 h-100 align-items-center" style="width: 18rem;">
 				  <a href=""><img src="img/sec21.png" width="120" height="96" class="img-fluid" alt="..."></a>
@@ -230,7 +151,7 @@
 	</section>
 	<section class="container-fluid back-image">
 		<div class="row align-items-center px-md-5 justify-content-center py-4 py-md-0">
-			<div class="col-md-5">
+			<div class="col-md-5 mt-5 mt-md-2 p-3">
 				<h2 class="fw-bold font-color">پکیج مدیریت کسب و کار آنلاین</h2>
 				<p class="lh-2 mt-4 fColor justify">ما می‌دانیم که دغدغه‌ به‌ روز رسانی و توسعه وب‌ سایت، با در‌ نظر‌ گرفتن شرایط جذب و مدیریت نیروی انسانی توانمند، برای بسیاری از کسب‌ و کارها پرهزینه و دردسرساز شده است. باید قبول کنیم که جذب نیروی متخصص کار دشواری است. حتی اگر چنین نیرویی در مجموعه شما حضور یابد، پرداخت هزینه‌ های حقوق و دستمزد و وفادار سازی نیروی انسانی کار آسانی نیست. از آنجا که ما سال‌ هاست در زمینه انجام تبلیغات و ارائه مشاوره به کسب‌ و کارهای آنلاین فعالیت می‌کنیم، تیمی متشکل از کارشناسان گرافیست‌ ، وب‌مستر ، تولید محتوا ، سئو و شبکه‌های اجتماعی در اختیار داریم.
 				<a target="_blank" class="font-color text-decoration-none" href="file:///C:/Users/Home/Desktop/sample1/index.html">مشاهده جزئیات طرح</a></p>
@@ -243,70 +164,277 @@
 	<section class="container-fluid bg-light py-5">
 		<div class="row">
 			<div class="col-12 text-center">
-				<h3>مشتریان ما</h3>
+				<h3 class="fw-bolder fColor ">مشتریان ما</h3>
 				<p class="fColor">برخی از مشتریان آئین گستر در زمینه های طراحی سایت ، تبلیغات ، برندینگ ، طراحی و گرافیک و…</p>
 			</div>
 			<div class="col-10 container back-image box-shadow rounded-3 p-5">
-				<div id="carouselExampleAutoplaying2" class="carousel slide py-4" data-bs-ride="carousel">
-				  <div class="carousel-inner">
-					<div class="carousel-item active">
-						<div class="d-flex w-100  justify-content-around ">
-							<div class="w-15 h-100  car-sec4"><img src="img/se41.jpg" class="d-block img-fluid" alt="..."></div>
-							<div class="w-15 h-100 car-sec4"><img src="img/sec47.jpg" class="d-block img-fluid" alt="..."></div>
-							<div class="w-15 h-100 car-sec4"><img src="img/sec45.jpg" class="d-block img-fluid" alt="..."></div>
-							<div class="w-15 h-100 car-sec4"><img src="img/sec46.jpg" class="d-block img-fluid" alt="..."></div>
-							<div class="w-15 h-100 car-sec4"><img src="img/sec46.jpg" class="d-block img-fluid" alt="..."></div>
-						</div>  
-					  </div>
-					<div class="carousel-item">
-						<div class="d-flex  w-100 justify-content-around">
-							<div class="w-15 h-100  car-sec4"><img src="img/se41.jpg" class="d-block img-fluid" alt="..."></div>
-							<div class="w-15 h-100 car-sec4"><img src="img/sec47.jpg" class="d-block img-fluid" alt="..."></div>
-							<div class="w-15 h-100 car-sec4"><img src="img/sec45.jpg" class="d-block img-fluid" alt="..."></div>
-							<div class="w-15 h-100 car-sec4"><img src="img/sec42.png" class="d-block img-fluid" alt="..."></div>
-							<div class="w-15 h-100 car-sec4"><img src="img/sec46.jpg" class="d-block img-fluid" alt="..."></div>
-						</div>  
-					  </div>
-					<div class="carousel-item ">
-						<div class="d-flex  w-100 justify-content-around">
-							<div class="w-15 h-100  car-sec4"><img src="img/se41.jpg" class="d-block img-fluid" alt="..."></div>
-							<div class="w-15 h-100 car-sec4"><img src="img/sec47.jpg" class="d-block img-fluid" alt="..."></div>
-							<div class="w-15 h-100 car-sec4"><img src="img/sec42.png" class="d-block img-fluid" alt="..."></div>
-							<div class="w-15 h-100 car-sec4"><img src="img/sec46.jpg" class="d-block img-fluid" alt="..."></div>
-							<div class="w-15 h-100 car-sec4"><img src="img/sec46.jpg" class="d-block img-fluid" alt="..."></div>
-						</div>	
-					</div>
-  				</div>
-			  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying2" data-bs-slide="prev">
-				<i class="bi bi-chevron-right fColor fw-bolder"></i>
-				<span class="visually-hidden fColor">Previous</span>
-			  </button>
-			  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying2" data-bs-slide="next">
-				<i class="bi bi-chevron-left fColor fw-bolder"></i>
-				<span class="visually-hidden">Next</span>
-			  </button>
-			</div>
+				<div class="container py-2">
+                	<div class="owl-carousel owl-theme">
+						<div class="item car-sec4 "><img src="img/sec43.png" loading="lazy" alt="..."></div>
+						<div class="item car-sec4"><img src="img/se41.jpg" loading="lazy" alt="..."></div>
+						<div class="item car-sec4"><img src="img/sec44.jpg" loading="lazy" alt="..."></div>
+						<div class="item car-sec4"><img src="img/sec43.png" alt="..."></div>
+						<div class="item car-sec4"><img src="img/sec42.png" loading="lazy" alt="..."></div>
+						<div class="item car-sec4"><img src="img/sec45.jpg" loading="lazy" alt="..."></div>
+						<div class="item car-sec4"><img src="img/sec46.jpg" loading="lazy" alt="..."></div>
+						<div class="item car-sec4"><img src="img/sec45.jpg" alt="..."></div>
+						<div class="item car-sec4"><img src="img/sec44.jpg" loading="lazy" alt="..."></div>
+						<div class="item car-sec4"><img src="img/sec43.png" alt="..."></div>
+						<div class="item car-sec4"><img src="img/sec42.png" loading="lazy" alt="..."></div>
+						<div class="item car-sec4"><img src="img/sec47.jpg" loading="lazy" alt="..."></div>
+          			</div>
+            	</div>
 			</div>
 		</div>
 	</section>
 	<section class="container-fluid bg-light py-5">
 		<div class="row">
 			<div class="col-12 text-center">
-				<h3> پروژه های انجام شده</h3>
+				<h3 class="fw-bolder"> پروژه های انجام شده</h3>
 				<p class="fColor">برخی از پروژه های شرکت آئین گستر در زمینه های <a href="" class="font-color text-decoration-none fw-bold a-hover">طراحی سایت </a>،<strong>طراحی اپلیکیشن ، دیجیتال مارکتینگ ، و سئو و تولید محتوا</strong></p>
 			</div>
 			<div class="col-10 box-shadow container bg-white mt-3 py-5 rounded-3 ">
 				<div class="row">
 					<div class="col-12 col-md-9  d-flex justify-content-center mx-auto">
-						<a href="#" class="col text-center text-decoration-none font-color "><span class="border-bottom border-danger px-3 py-2" >همه</span></a>
+						<ul class="nav nav-tabs justify-content-center border-0" id="myTab" role="tablist">
+							  <li class="nav-item" role="presentation">
+								<a href="#" class="nav-link active col text-center text-decoration-none font-color " id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true"><span class="border-bottom  border-danger px-3 py-2" >همه</span></a>  
+							  </li>
+							  <li class="nav-item">
+								<a href="#" class="col text-center text-decoration-none nav-link  fColor hover-dark" id="home-tab2" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="false">طراحی سایت</a>  
+							  </li>
+							  <li class="nav-item">
+								 <a href="#" class="col nav-link text-center text-decoration-none fColor hover-dark" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">طراحی اپلیکیشن</a> 
+							  </li>
+							  <li class="nav-item">
+								<a href="#" class="col nav-link text-center text-decoration-none  fColor hover-dark" id="disabled-tab2" data-bs-toggle="tab" data-bs-target="#disabled-tab-pane" type="button" role="tab" aria-controls="disabled-tab-pane" aria-selected="false">سئو و بهینه سازی </a>  
+							  </li>
+							   <li class="nav-item">
+								 <a href="#" class="col nav-link text-center text-decoration-none fColor hover-dark"  id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">تولید محتوا</a> 
+							  </li>
+							  <li class="nav-item">
+								<a href="#" class="col nav-link text-center text-decoration-none  fColor hover-dark" id="disabled-tab" data-bs-toggle="tab" data-bs-target="#disabled-tab-pane" type="button" role="tab" aria-controls="disabled-tab-pane" aria-selected="false">نرم افزار </a>  
+							  </li>
+							</ul>
+						<!--<a href="#" class="col text-center text-decoration-none font-color "><span class="border-bottom border-danger px-3 py-2" >همه</span></a>
 						<a href="#" class="col text-center text-decoration-none  fColor hover-dark">طراحی سایت</a>
 						<a href="#" class="col text-center text-decoration-none fColor hover-dark">طراحی اپلیکیشن</a>
 						<a href="#" class="col text-center text-decoration-none  fColor hover-dark">سئو و بهینه سازی </a>
 						<a href="#" class="col text-center text-decoration-none  fColor hover-dark">تولید محتوا</a>
-						<a href="#" class="col text-center text-decoration-none  fColor hover-dark">نرم افزار</a>
+						<a href="#" class="col text-center text-decoration-none  fColor hover-dark">نرم افزار</a>-->
 					</div>		
 				</div>
-				<div class="row mt-5 g-2 g-lg-3 row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4 container-project">
+				
+				<div class="tab-content" id="myTabContent">
+				  	<div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+						<div class="row mt-5 g-2 g-lg-3 row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4 container-project">
+							<div class="col ">
+								<div class="inner rounded position-relative">
+									<div class="w-100 h-100 bg-light bg-opacity-50 rounded opacity-0">
+										<a href="#" class="astyle text-decoration-none position-absolute top-50 start-50 translate-middle-x h-auto animate text-center"><i class="bi bi-paperclip z-index-1"></i><span class="z-index-1">مشاهده وب سایت</span></a>
+									</div>	
+									<div class="w-100 bg-light position-absolute bottom-0 rounded-bottom-1 py-2 pe-3 inner-inner">
+										<p class="font-color my-auto ">آژانس دیجیتال مارکتینگ گرشا</p>
+									</div>
+								</div>
+							</div>	
+							<div class="col ">
+								<div class="inner  rounded position-relative">
+									<div class="w-100 h-100 bg-light bg-opacity-50 rounded opacity-0">
+										<a href="#" class="astyle text-decoration-none position-absolute top-50 start-50 translate-middle-x h-auto animate text-center"><i class="bi bi-paperclip z-index-1"></i><span class="z-index-1">مشاهده وب سایت</span></a>
+									</div>	
+									<div class="w-100 bg-light position-absolute bottom-0 rounded-bottom-1 py-2 pe-3 inner-inner">
+										<p class="font-color my-auto ">آژانس دیجیتال مارکتینگ گرشا</p>
+									</div>
+								</div>
+							</div>
+							<div class="col ">
+								<div class="inner  rounded position-relative">
+									<div class="w-100 h-100 bg-light bg-opacity-50 rounded opacity-0">
+										<a href="#" class="astyle text-decoration-none position-absolute top-50 start-50 translate-middle-x h-auto animate text-center"><i class="bi bi-paperclip z-index-1"></i><span class="z-index-1">مشاهده وب سایت</span></a>
+									</div>	
+									<div class="w-100 bg-light position-absolute bottom-0 rounded-bottom-1 py-2 pe-3 inner-inner">
+										<p class="font-color my-auto ">آژانس دیجیتال مارکتینگ گرشا</p>
+									</div>
+								</div>
+							</div>
+							<div class="col ">
+								<div class="inner rounded position-relative">
+									<div class="w-100 h-100 bg-light bg-opacity-50 rounded opacity-0">
+										<a href="#" class="astyle text-decoration-none position-absolute top-50 start-50 translate-middle-x h-auto animate text-center" ><i class="bi bi-paperclip z-index-1"></i><span class="z-index-1">مشاهده وب سایت</span></a>
+									</div>	
+									<div class="w-100 bg-light bg-opacity-75 position-absolute bottom-0 rounded-bottom-1 py-2 pe-3 inner-inner">
+										<p class="font-color my-auto ">آژانس دیجیتال مارکتینگ گرشا</p>
+									</div>
+								</div>
+							</div>
+							<div class="col ">
+								<div class="inner  rounded position-relative">
+									<div class="w-100 h-100 bg-light bg-opacity-50 rounded opacity-0">
+										<a href="#" class="astyle text-decoration-none position-absolute top-50 start-50 translate-middle-x h-auto animate text-center"><i class="bi bi-paperclip z-index-1"></i><span class="z-index-1">مشاهده وب سایت</span></a>
+									</div>	
+									<div class="w-100 bg-light bg-opacity-75 position-absolute bottom-0 rounded-bottom-1 py-2 pe-3 inner-inner">
+										<p class="font-color my-auto ">آژانس دیجیتال مارکتینگ گرشا</p>
+									</div>
+								</div>
+							</div>
+							<div class="col ">
+								<div class="inner  rounded position-relative">
+									<div class="w-100 h-100 bg-light bg-opacity-50 rounded opacity-0">
+										<a href="#" class="astyle text-decoration-none position-absolute top-50 start-50 translate-middle-x h-auto animate text-center"><i class="bi bi-paperclip z-index-1"></i><span class="z-index-1">مشاهده وب سایت</span></a>
+									</div>	
+									<div class="w-100 bg-light bg-opacity-75 position-absolute bottom-0 rounded-bottom-1 py-2 pe-3 inner-inner">
+										<p class="font-color my-auto ">آژانس دیجیتال مارکتینگ گرشا</p>
+									</div>
+								</div>
+							</div>
+							<div class="col ">
+								<div class="inner  rounded position-relative">
+									<div class="w-100 h-100 bg-light bg-opacity-50 rounded opacity-0">
+										<a href="#" class="astyle text-decoration-none position-absolute top-50 start-50 translate-middle-x h-auto animate text-center"><i class="bi bi-paperclip z-index-1"></i><span class="z-index-1">مشاهده وب سایت</span></a>
+									</div>	
+									<div class="w-100 bg-light bg-opacity-75 position-absolute bottom-0 rounded-bottom-1 py-2 pe-3 inner-inner">
+										<p class="font-color my-auto ">آژانس دیجیتال مارکتینگ گرشا</p>
+									</div>
+								</div>
+							</div>
+							<div class="col ">
+								<div class="inner  rounded position-relative">
+									<div class="w-100 h-100 bg-light bg-opacity-50 rounded opacity-0">
+										<a href="#" class="astyle text-decoration-none position-absolute top-50 start-50 translate-middle-x h-auto animate text-center"><i class="bi bi-paperclip z-index-1"></i><span class="z-index-1">مشاهده وب سایت</span></a>
+									</div>	
+									<div class="w-100 bg-light bg-opacity-75 position-absolute bottom-0 rounded-bottom-1 py-2 pe-3 inner-inner">
+										<p class="font-color my-auto ">آژانس دیجیتال مارکتینگ گرشا</p>
+									</div>
+								</div>
+							</div>
+							<div class="col ">
+								<div class="inner  rounded position-relative">
+									<div class="w-100 h-100 bg-light bg-opacity-50 rounded opacity-0">
+										<a href="#" class="astyle text-decoration-none position-absolute top-50 start-50 translate-middle-x h-auto animate text-center"><i class="bi bi-paperclip z-index-1"></i><span class="z-index-1">مشاهده وب سایت</span></a>
+									</div>	
+									<div class="w-100 bg-light bg-opacity-75 position-absolute bottom-0 rounded-bottom-1 py-2 pe-3 inner-inner">
+										<p class="font-color my-auto ">آژانس دیجیتال مارکتینگ گرشا</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				  	<div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+						<div class="row mt-5 g-2 g-lg-3 row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4 container-project">
+							<div class="col ">
+								<div class="inner rounded position-relative">
+									<div class="w-100 h-100 bg-light bg-opacity-50 rounded opacity-0">
+										<a href="#" class="astyle text-decoration-none position-absolute top-50 start-50 translate-middle-x h-auto animate text-center"><i class="bi bi-paperclip z-index-1"></i><span class="z-index-1">مشاهده وب سایت</span></a>
+									</div>	
+									<div class="w-100 bg-light position-absolute bottom-0 rounded-bottom-1 py-2 pe-3 inner-inner">
+										<p class="font-color my-auto ">آژانس دیجیتال مارکتینگ گرشا</p>
+									</div>
+								</div>
+							</div>	
+						</div>	
+					</div>
+				  	<div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+						<div class="row mt-5 g-2 g-lg-3 row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4 container-project">
+							<div class="col ">
+								<div class="inner rounded position-relative">
+									<div class="w-100 h-100 bg-light bg-opacity-50 rounded opacity-0">
+										<a href="#" class="astyle text-decoration-none position-absolute top-50 start-50 translate-middle-x h-auto animate text-center"><i class="bi bi-paperclip z-index-1"></i><span class="z-index-1">مشاهده وب سایت</span></a>
+									</div>	
+									<div class="w-100 bg-light position-absolute bottom-0 rounded-bottom-1 py-2 pe-3 inner-inner">
+										<p class="font-color my-auto ">آژانس دیجیتال مارکتینگ گرشا</p>
+									</div>
+								</div>
+							</div>	
+							<div class="col ">
+								<div class="inner rounded position-relative">
+									<div class="w-100 h-100 bg-light bg-opacity-50 rounded opacity-0">
+										<a href="#" class="astyle text-decoration-none position-absolute top-50 start-50 translate-middle-x h-auto animate text-center"><i class="bi bi-paperclip z-index-1"></i><span class="z-index-1">مشاهده وب سایت</span></a>
+									</div>	
+									<div class="w-100 bg-light position-absolute bottom-0 rounded-bottom-1 py-2 pe-3 inner-inner">
+										<p class="font-color my-auto ">آژانس دیجیتال مارکتینگ گرشا</p>
+									</div>
+								</div>
+							</div>	
+							<div class="col ">
+								<div class="inner rounded position-relative">
+									<div class="w-100 h-100 bg-light bg-opacity-50 rounded opacity-0">
+										<a href="#" class="astyle text-decoration-none position-absolute top-50 start-50 translate-middle-x h-auto animate text-center"><i class="bi bi-paperclip z-index-1"></i><span class="z-index-1">مشاهده وب سایت</span></a>
+									</div>	
+									<div class="w-100 bg-light position-absolute bottom-0 rounded-bottom-1 py-2 pe-3 inner-inner">
+										<p class="font-color my-auto ">آژانس دیجیتال مارکتینگ گرشا</p>
+									</div>
+								</div>
+							</div>	
+							<div class="col ">
+								<div class="inner rounded position-relative">
+									<div class="w-100 h-100 bg-light bg-opacity-50 rounded opacity-0">
+										<a href="#" class="astyle text-decoration-none position-absolute top-50 start-50 translate-middle-x h-auto animate text-center"><i class="bi bi-paperclip z-index-1"></i><span class="z-index-1">مشاهده وب سایت</span></a>
+									</div>	
+									<div class="w-100 bg-light position-absolute bottom-0 rounded-bottom-1 py-2 pe-3 inner-inner">
+										<p class="font-color my-auto ">آژانس دیجیتال مارکتینگ گرشا</p>
+									</div>
+								</div>
+							</div>	
+							<div class="col ">
+								<div class="inner rounded position-relative">
+									<div class="w-100 h-100 bg-light bg-opacity-50 rounded opacity-0">
+										<a href="#" class="astyle text-decoration-none position-absolute top-50 start-50 translate-middle-x h-auto animate text-center"><i class="bi bi-paperclip z-index-1"></i><span class="z-index-1">مشاهده وب سایت</span></a>
+									</div>	
+									<div class="w-100 bg-light position-absolute bottom-0 rounded-bottom-1 py-2 pe-3 inner-inner">
+										<p class="font-color my-auto ">آژانس دیجیتال مارکتینگ گرشا</p>
+									</div>
+								</div>
+							</div>	
+							<div class="col ">
+								<div class="inner rounded position-relative">
+									<div class="w-100 h-100 bg-light bg-opacity-50 rounded opacity-0">
+										<a href="#" class="astyle text-decoration-none position-absolute top-50 start-50 translate-middle-x h-auto animate text-center"><i class="bi bi-paperclip z-index-1"></i><span class="z-index-1">مشاهده وب سایت</span></a>
+									</div>	
+									<div class="w-100 bg-light position-absolute bottom-0 rounded-bottom-1 py-2 pe-3 inner-inner">
+										<p class="font-color my-auto ">آژانس دیجیتال مارکتینگ گرشا</p>
+									</div>
+								</div>
+							</div>
+							<div class="col ">
+								<div class="inner rounded position-relative">
+									<div class="w-100 h-100 bg-light bg-opacity-50 rounded opacity-0">
+										<a href="#" class="astyle text-decoration-none position-absolute top-50 start-50 translate-middle-x h-auto animate text-center"><i class="bi bi-paperclip z-index-1"></i><span class="z-index-1">مشاهده وب سایت</span></a>
+									</div>	
+									<div class="w-100 bg-light position-absolute bottom-0 rounded-bottom-1 py-2 pe-3 inner-inner">
+										<p class="font-color my-auto ">آژانس دیجیتال مارکتینگ گرشا</p>
+									</div>
+								</div>
+							</div>	
+						</div>	
+					</div>
+				  	<div class="tab-pane fade" id="disabled-tab-pane" role="tabpanel" aria-labelledby="disabled-tab" tabindex="0">
+						<div class="row mt-5 g-2 g-lg-3 row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4 container-project">
+							<div class="col ">
+								<div class="inner rounded position-relative">
+									<div class="w-100 h-100 bg-light bg-opacity-50 rounded opacity-0">
+										<a href="#" class="astyle text-decoration-none position-absolute top-50 start-50 translate-middle-x h-auto animate text-center"><i class="bi bi-paperclip z-index-1"></i><span class="z-index-1">مشاهده وب سایت</span></a>
+									</div>	
+									<div class="w-100 bg-light position-absolute bottom-0 rounded-bottom-1 py-2 pe-3 inner-inner">
+										<p class="font-color my-auto ">آژانس دیجیتال مارکتینگ گرشا</p>
+									</div>
+								</div>
+							</div>	
+							<div class="col ">
+								<div class="inner rounded position-relative">
+									<div class="w-100 h-100 bg-light bg-opacity-50 rounded opacity-0">
+										<a href="#" class="astyle text-decoration-none position-absolute top-50 start-50 translate-middle-x h-auto animate text-center"><i class="bi bi-paperclip z-index-1"></i><span class="z-index-1">مشاهده وب سایت</span></a>
+									</div>	
+									<div class="w-100 bg-light position-absolute bottom-0 rounded-bottom-1 py-2 pe-3 inner-inner">
+										<p class="font-color my-auto ">آژانس دیجیتال مارکتینگ گرشا</p>
+									</div>
+								</div>
+							</div>	
+							
+						</div>	
+					</div>
+				</div>
+<!--				<div class="row mt-5 g-2 g-lg-3 row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4 container-project">
 						<div class="col ">
 							<div class="inner rounded position-relative">
 								<div class="w-100 h-100 bg-light bg-opacity-50 rounded opacity-0">
@@ -398,14 +526,14 @@
 							</div>
 						</div>
 				</div>
-			</div>
+-->			</div>
 			<div class="col-12 mt-5">
 				<p class="text-center "><a href="#" class="text-decoration-none font-color fs-4 a-hover">مشاهده همه پروژه ها</a></p>
 			</div>
 		</div>
 	</section>
 	<section class="container-fluid bg-light py-5">
-		<div class="row">
+		<div class="row" data-aos="fade-up" data-aos-duration="3000">
 			<div class="col-12 text-center">
 				<h3> در بخش اخبار و رویدادهای ما</h3>
 				<p class="fColor">بیشتر دربارۀ <a href="#" class="active text-decoration-none font-color a-hover"> طراحی سایت</a>، <a href="#" class="active text-decoration-none font-color a-hover"> بهینه سازی و سئو</a> ، <a href="#" class="active text-decoration-none font-color a-hover"> کسب و کار</a> ، <a href="#" class="active text-decoration-none font-color a-hover"> فروش و بازاریابی</a>  ، بخوانید</p>
@@ -469,31 +597,31 @@
 					<div class="container">
 						<div class="row row-cols-1 row-cols-sm-2 g-2 g-lg-3">
 							<div class="col ">
-								<div class="input-group mb-3">
+								<div class="input-group box-shadow mb-3">
 								  <i class="bi bi-pencil-square input-group-text fw-bold" ></i>
 								  <input type="text" class="form-control" placeholder="نام / شرکت / مجموعه *" aria-label="Username" aria-describedby="basic-addon1" required>
 								</div>
 							</div>
 							<div class="col">
-								<div class="input-group mb-3">
+								<div class="input-group box-shadow mb-3">
 								  <i class="bi bi-pencil-square input-group-text" ></i>
 								  <input type="text" class="form-control" placeholder="حوزه فعالیت" aria-label="Username" aria-describedby="basic-addon1" >
 								</div>
 							</div>
 							<div class="col ">
-								<div class="input-group mb-3">
+								<div class="input-group box-shadow mb-3">
 								  <i class="bi bi-pencil-square input-group-text" ></i>
-								  <input type="email" class="form-control" placeholder="ایمیل *" aria-label="Username" aria-describedby="basic-addon1" required>
+								  <input type="email" class="form-control" placeholder="* ایمیل " aria-label="Username" aria-describedby="basic-addon1" required>
 								</div>
 							</div>
 							<div class="col">
-								<div class="input-group mb-3">
+								<div class="input-group box-shadow mb-3">
 								  <i class="bi bi-pencil-square input-group-text" ></i>
-								  <input type="tel" class="form-control" placeholder="شماره تماس / همراه *" aria-label="Username" aria-describedby="basic-addon1" required>
+								  <input type="tel" class="form-control" placeholder="* شماره تماس / همراه " aria-label="Username" aria-describedby="basic-addon1" required>
 								</div>
 							</div>
 							<div class="col">
-								<div class="input-group mb-3">
+								<div class="input-group box-shadow mb-3">
 									<label class="input-group-text" for="inputGroupSelect02"><i class="bi bi-code-slash"></i></label>
 									<select class="form-select" >
 										<option selected>نوع قالب و ساختار سایت را انتخاب نمائید</option>
@@ -512,7 +640,7 @@
 								</div>
 							</div>
 							<div class="col">
-								<div class="input-group mb-3">
+								<div class="input-group box-shadow mb-3">
 									<label class="input-group-text" for="inputGroupSelect02"><i class="bi bi-code-slash"></i></label>
 									<select class="form-select" >
 										<option selected>نوع طراحی را انتخاب نمائید</option>
@@ -522,13 +650,13 @@
 								</div>
 							</div>
 							<div class="w-100 ">
-								<div class="input-group mb-3">
+								<div class="input-group box-shadow mb-3">
 									<i class="bi bi-three-dots input-group-text"></i>
-									<input type="textarea" class="form-control" placeholder="توضیحات بیشتر" rows="3" >
+									<textarea  class="form-control" placeholder="توضیحات بیشتر" rows="3" ></textarea>
 								</div>	
 							</div>
 							<div class="w-100 text-center">
-								<button class="fw-bolder fs-5 astyle animate px-3 py-2"><span class="z-index-1">ثبت درخواست طراحی سایت</span></button>
+								<button class="fw-bolder fs-5 astyle animate px-4 py-2"><span class="z-index-1">ثبت درخواست طراحی سایت</span></button>
 							</div>
 						</div>
 					</div>
@@ -540,9 +668,9 @@
 		<div class="row">
 			<div class="col-10 sec8 py-5 mx-auto box-shadow rounded-2">
 				<h2 class=" text-center text-light">طـــرح یـک ایـده و پـــروژه جـدیـد بـا آئیـن گســتر</h2>
-				<div class=" text-center mt-5">
-					<a href="#form1" class="active astyle2 text-decoration-none animate2"><span class="z-index-1">شروع همکاری با ما</span></a>
-					<a href="tel:09192638107" target="_blank" class="active astyle2 text-decoration-none animate2"><i class="bi bi-telephone-fill z-index-1"></i> <span class="z-index-1">به مشاوره رایگان نیاز دارید؟!</span></a>
+				<div class=" justify-content-center d-flex mt-5">
+					<a href="#form1" class="text-center  me-3 active astyle2 text-decoration-none animate2"><span class="z-index-1">شروع همکاری با ما</span></a>
+					<a href="tel:09192638107" target="_blank" class="text-center  active astyle2 text-decoration-none animate2"><i class="bi bi-telephone-fill z-index-1"></i> <span class="z-index-1">به مشاوره رایگان نیاز دارید؟!</span></a>
 				</div>
 			</div>
 		</div>	
@@ -565,12 +693,12 @@
 							<div class="col-6">
 								<p><a href="tel:09192638107"  class="active text-decoration-none font-color a-hover"><i class="bi bi-phone-fill me-2 rounded-circle back-color btn"> </i> 09192638107</a></p>
 							</div>
-							<div class="col-8 mx-auto my-4">
-								<a href="mailto:support@aeingostar.com" target="new"><i class="bi bi-envelope envelope font-color2 social-icon fs-5"></i></a>
-								<a href="https://www.instagram.com/aeingostar" target="new"><i class="bi bi-instagram instagram social-icon fs-5" ></i></a>
-								<a href="http://t.me/aeingostar" target="new"><i class="bi bi-twitter twitter social-icon fs-5"></i></a>
-								<a href="https://https://wa.me/989106863782" target="new"><i class="bi bi-whatsapp whatsapp social-icon fs-5"></i></a>
-								<a href="https://twitter.com/alialikhani07" target="new"><i class="bi bi-telegram telegram social-icon fs-5"></i></a>
+							<div class="col-12 d-flex flex-wrap justify-content-center   text-center my-4">
+								<a href="mailto:support@aeingostar.com" target="new" ><i data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="ایمیل" class="bi bi-envelope envelope font-color2 social-icon fs-5" ></i></a>
+								<a href="https://www.instagram.com/aeingostar" target="new"><i data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="instagram" class="bi bi-instagram instagram social-icon fs-5" ></i></a>
+								<a href="http://t.me/aeingostar" target="new"><i data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="twitter" class="bi bi-twitter twitter social-icon fs-5"></i></a>
+								<a href="https://https://wa.me/989106863782" target="new"><i data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="whatsapp" class="bi bi-whatsapp whatsapp social-icon fs-5"></i></a>
+								<a href="https://twitter.com/alialikhani07" class=""  target="new"><i data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="telegram" class="bi bi-telegram telegram social-icon fs-5 "></i></a>
 							</div>
 							<div class="col-12 my-4">
 								<p class="fs-6">تمامی حقوق مادی و معنوی این وب سایت به شرکت<strong>” آئین گستر ”</strong> تعلق دارد.</p>
@@ -586,20 +714,20 @@
 									</div>
 									<div class="col-md-6 ">
 										<div class="list-group list-group-flush  list-group-arow list-group-item-light">
-											 <a href="#" class="list-group-item list-group-item-action font-color "><i class="bi bi-caret-left-fill"></i>طراحی سایت شرکتی</a>
-											 <a href="#" class="list-group-item list-group-item-action font-color"><i class="bi bi-caret-left-fill"></i> طراحی سایت فروشگاهی</a>
-											 <a href="#" class="list-group-item list-group-item-action font-color "><i class="bi bi-caret-left-fill"></i>طراحی سایت شرکتی</a>
-											 <a href="#" class="list-group-item list-group-item-action font-color"><i class="bi bi-caret-left-fill"></i> طراحی سایت فروشگاهی</a>
-											 <a href="#" class="list-group-item list-group-item-action font-color "><i class="bi bi-caret-left-fill"></i>طراحی سایت شرکتی</a>
-											 <a href="#" class="list-group-item list-group-item-action font-color"><i class="bi bi-caret-left-fill"></i> طراحی سایت فروشگاهی</a>
+											 <a href="#" class="list-group-item bg-transparent border-0 list-group-item-action font-color "><i class="bi bi-caret-left-fill"></i>طراحی سایت شرکتی</a>
+											 <a href="#" class="list-group-item bg-transparent border-0 list-group-item-action font-color"><i class="bi bi-caret-left-fill"></i> طراحی سایت فروشگاهی</a>
+											 <a href="#" class="list-group-item bg-transparent border-0 list-group-item-action font-color "><i class="bi bi-caret-left-fill"></i>طراحی سایت شرکتی</a>
+											 <a href="#" class="list-group-item bg-transparent border-0 list-group-item-action font-color"><i class="bi bi-caret-left-fill"></i> طراحی سایت فروشگاهی</a>
+											 <a href="#" class="list-group-item bg-transparent border-0 list-group-item-action font-color "><i class="bi bi-caret-left-fill"></i>طراحی سایت شرکتی</a>
+											 <a href="#" class="list-group-item bg-transparent border-0 list-group-item-action font-color"><i class="bi bi-caret-left-fill"></i> طراحی سایت فروشگاهی</a>
 										</div>
 									</div>
 									<div class="col-md-6 mt-5 mt-md-0">
 										<ul class="list-group list-group-flush">
-											<li class="list-group-item"><a href="#" class="list-group-item-action font-color text-decoration-none"><i class="bi bi-caret-left-fill"></i> طراحی سایت گردشگری</a></li>
-											<li class="list-group-item"><a href="#" class=" list-group-item-action font-color text-decoration-none"><i class="bi bi-caret-left-fill"></i> طراحی سایت آتلیه عکاسی</a></li>
-											<li class="list-group-item"><a href="#" class=" list-group-item-action font-color text-decoration-none"><i class="bi bi-caret-left-fill"></i> طراحی سایت فروشگاهی</a></li>
-											<li class="list-group-item"><a href="#" class=" list-group-item-action font-color text-decoration-none"><i class="bi bi-caret-left-fill"></i> طراحی سایت فروشگاهی</a></li>
+											<li class="bg-transparent border-0 list-group-item"><a href="#" class="list-group-item-action font-color text-decoration-none"><i class="bi bi-caret-left-fill"></i> طراحی سایت گردشگری</a></li>
+											<li class="border-0 bg-transparent  list-group-item"><a href="#" class=" list-group-item-action font-color text-decoration-none"><i class="bi bi-caret-left-fill"></i> طراحی سایت آتلیه عکاسی</a></li>
+											<li class="border-0 bg-transparent  list-group-item"><a href="#" class=" list-group-item-action font-color text-decoration-none"><i class="bi bi-caret-left-fill"></i> طراحی سایت فروشگاهی</a></li>
+											<li class="bg-transparent  list-group-item"><a href="#" class=" list-group-item-action font-color text-decoration-none"><i class="bi bi-caret-left-fill"></i> طراحی سایت فروشگاهی</a></li>
 										</ul>
 									</div>
 								</div>
@@ -632,14 +760,47 @@
 			</div>	
 		</div>
 	</footer>
-	
 </main>
+<!-- bootstrap-script  -->		
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<!-- tooltip-bootstrap-script  -->	
 <script>
-	/*document.getElementsByClassName('inner')[0].addEventListener('mouseenter',function(){
-		console.log('salam');
-		
-	})*/
+	const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+	const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+</script>	
+<!-- fade-up  -->	
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>	
+<script>
+  AOS.init();
 </script>
+<!-- owl-carousel  -->	
+<script>
+$('.owl-carousel').owlCarousel({
+	autoplay:true,
+	rtl:true ,
+    loop:true,
+    margin:10,
+	
+    responsiveClass:true,
+	dots:0,
+    responsive : {
+		  0: {
+                    items: 1,
+                    nav: true
+                  },
+                  600: {
+                    items: 3,
+                    nav: false
+                  },
+                  1000: {
+                    items: 5,
+                    nav: true,
+                    loop: false,
+                    margin: 20
+                  }
+}
+})	
+</script>	
+
 </body>
 </html>

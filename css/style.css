@@ -14,8 +14,9 @@
 html{--maincolor:#ae0b4f;--submenuColor:#d2dae2;scroll-behavior: smooth}
 *{margin:0;padding:0;direction: rtl;font-family: 'yekan'}
 .fColor{color: #666666}
+.nav-a:hover{color: var(--maincolor)!important}
 nav i{color: white;}
-
+.direction-ltr{direction: ltr}
 .astyle{
     background-color: var(--maincolor);
     border-radius: 0.8em;
@@ -65,7 +66,7 @@ nav i{color: white;}
 .astyle2{
     background-color: white;
     border-radius: 0.8em;
-    padding: 0.6% 2%;
+    padding: 0.8% 2.5%;
    color: var(--maincolor);
 	border: 0px;
 }
@@ -99,7 +100,7 @@ nav i{color: white;}
 .inner:hover .inner-inner{display: none}
 
 
-.inner{height: 160px;box-shadow: 0 0.03rem 0.06rem rgb(0 0 0 / 10%), 0 0.1rem 0.3rem rgb(0 0 0 / 10%);transition: 1s}
+.inner{height: 160px;box-shadow: 0 0.03rem 0.06rem rgb(0 0 0 / 10%), 0 0.1rem 0.3rem rgb(0 0 0 / 10%);transition: 1s;background-size: 100% 100%;}
 .container-project div:nth-child(1) .inner{
 	background-image: url("../img/sec51.jpg");
 }
@@ -171,8 +172,9 @@ nav i{color: white;}
 	color:white;
 	background-color: #96a2a8;transition: 1s;
 }
+.car-sec4{ box-shadow: 0 0.02rem 0.04rem rgb(0 0 0 / 10%), 0 0.07rem 0.2rem rgb(0 0 0 / 10%);}
 .car-sec4:hover{transform: scale(1.2);transition: 1s}
-.car-sec4{    box-shadow: 0 0.02rem 0.04rem rgb(0 0 0 / 10%), 0 0.07rem 0.2rem rgb(0 0 0 / 10%);}
+
 
 .up{background: rgba(174,11,79,0.35);color:white}
 .up:hover{background-color:var(--maincolor);transition: 0.5s}
@@ -189,14 +191,91 @@ nav i{color: white;}
 .sec-rad3:hover .sec-radcam3{transform:scale(0.5);opacity: 0;transition:transform 1s , opacity 1s } 
 .sec-rad4:hover .sec-radcam4{transform:scale(0.5);opacity: 0;transition:transform 1s , opacity 1s } 
 
-.div-rad1,.div-rad2,.div-rad3,.div-rad4{padding-right: 3rem;transition: 0.5s}
-.sec-rad1:hover .div-rad1{padding-right: 1.5rem!important;}
-.sec-rad2:hover .div-rad2{padding-right: 1.5rem!important;}
-.sec-rad3:hover .div-rad3{padding-right: 1.5rem!important;}
-.sec-rad4:hover .div-rad4{padding-right: 1.5rem!important;}
+
+.sec-rad1:hover .translate-hover{transform: translateX(35px);transition: 1s}
+.sec-rad2:hover .translate-hover{transform: translateX(35px);transition: 1s}
+.sec-rad3:hover .translate-hover{transform: translateX(35px);transition: 1s}
+.sec-rad4:hover .translate-hover{transform: translateX(35px);transition: 1s}
+
+.transition{transition: 1s}
+
 
 .sec-rad1{background-color: #f0a540}
 .sec-rad2{background-color: #d9534f;}
 .sec-rad3{background-color: #4caf50;}
 .sec-rad4{background-color: #2196f3;}
 .justify{text-align: justify}
+
+
+
+
+.rounded-custom{
+	border-radius:8px 
+}
+
+.height{height: 100px}
+
+
+
+
+
+
+
+input::placeholder {
+  
+	text-align: right;
+}
+
+.secj{
+	background-image: url("../img/secj.jpg");
+	min-height: 100vh;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover
+}
+
+.secj .inner{ background: -webkit-linear-gradient(right,rgba(255,255,255,0) 0,rgba(255,255,255,0.3) 20%,rgba(255,255,255,0.3) 60%,rgba(255,255,255,0) 100%);}
+
+.text-shadoww{text-shadow: 0 3px 5px rgb(0 0 0);}
+
+.top_position{top: -28px;}
+
+
+
+.submenu {
+    position: absolute;
+    background-color: antiquewhite;
+    top: 0px;
+    right: 2px;
+    display: none;
+	z-index: 5;
+    min-width: 12rem;
+	box-shadow: 0 2px 3px rgb(0 0 0 / 10%), 0 5px 10px rgb(0 0 0 / 20%);
+	background: #ffffff;
+    color: #666666;
+}
+.li-container{position: relative;color: #666666;}
+.li-container:hover .submenu{display: block}
+
+
+.submenu-inner{position: absolute;
+    background-color: aquamarine;
+    right: 194px;
+    top: 0px;
+	display: none;
+	z-index: 5;
+    width: 100%;
+	box-shadow: 0 2px 3px rgb(0 0 0 / 10%), 0 5px 10px rgb(0 0 0 / 20%);
+	background: #ffffff;
+    color: #666666;
+}
+.li-hover:hover{background: #ae0b4f;color: #ffffff;}
+.li-hover:hover>.x{ color: #ffffff !important;}
+.li-container-inner:hover{background: #ae0b4f;color: #ffffff;}
+.li-container-inner:hover>.x{ color: #ffffff !important;}
+.li-container-inner{position: relative;color: #666666;}
+.li-container-inner:hover .submenu-inner{display: block}
+.padding-li{padding: 6px 4px;}
+
+
+
